@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<RelativeLayout-->
+<!--    xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent">-->
+
+<!--    <Button-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="위쪽"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        ></Button>-->
+
+<!--    <Button-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="왼쪽"-->
+<!--        android:layout_alignParentLeft="true"-->
+<!--        android:layout_centerVertical="true"-->
+<!--        ></Button>-->
+
+<!--    <Button-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="오른쪽"-->
+<!--        android:layout_alignParentRight="true"-->
+<!--        android:layout_centerVertical="true"-->
+<!--        ></Button>-->
+
+<!--    <Button-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="아래쪽"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        ></Button>-->
+
+<!--    <Button-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="CENTER"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        ></Button>-->
+
+<!--</RelativeLayout>-->
+
+<!--<RelativeLayout-->
+<!--    xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent">-->
+
+<!--    <Button-->
+<!--        android:id="@+id/baseBtn"-->
+<!--        android:layout_width="150dp"-->
+<!--        android:layout_height="150dp"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_centerVertical="true"-->
+<!--        android:text="기준 위젯"-->
+<!--        ></Button>-->
+
+<!--    <Button-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignTop="@+id/baseBtn"-->
+<!--        android:layout_toLeftOf="@+id/baseBtn"-->
+<!--        android:text="top/leftof"-->
+<!--        ></Button>-->
+<!--    <Button-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignBaseline="@+id/baseBtn"-->
+<!--        android:layout_toLeftOf="@+id/baseBtn"-->
+<!--        android:text="baseline/leftof"-->
+<!--        ></Button>-->
+<!--    <Button-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignBottom="@+id/baseBtn"-->
+<!--        android:layout_toRightOf="@+id/baseBtn"-->
+<!--        android:text="bottom/rightof"-->
+<!--        ></Button>-->
+<!--    <Button-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignLeft="@+id/baseBtn"-->
+<!--        android:layout_below="@+id/baseBtn"-->
+<!--        android:text="left/below"-->
+<!--        ></Button>-->
+<!--    <Button-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignRight="@+id/baseBtn"-->
+<!--        android:layout_above="@+id/baseBtn"-->
+<!--        android:text="right/above"-->
+<!--        ></Button>-->
+
+<!--</RelativeLayout>-->
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/baseBtn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="기준1"
+        ></Button>
+
+    <Button
+        android:id="@+id/baseBtn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:text="기준2"
+        ></Button>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/baseBtn2"
+        android:layout_toRightOf="@+id/baseBtn1"
+        android:text="버튼1"
+        ></Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/baseBtn1"
+        android:text="버튼2"
+        ></Button>
+
+</RelativeLayout>

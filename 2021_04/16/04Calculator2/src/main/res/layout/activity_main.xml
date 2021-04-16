@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<TableLayout-->
+<!--    xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:layout_width="match_parent">-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/et1"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        ></EditText>-->
+<!--    <EditText-->
+<!--        android:id="@+id/et2"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        ></EditText>-->
+
+<!--    <TableRow>-->
+<!--        <TextView-->
+<!--            android:textSize="30dp"-->
+<!--            android:text="" />-->
+<!--    </TableRow>-->
+
+<!--    <TableRow>-->
+<!--        <Button-->
+<!--            android:id="@+id/plus"-->
+<!--            android:text="+" />-->
+<!--        <Button-->
+<!--            android:id="@+id/minus"-->
+<!--            android:text="-" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/mul"-->
+<!--            android:text="*" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/div"-->
+<!--            android:text="/" />-->
+<!--    </TableRow>-->
+
+<!--    <TableRow>-->
+<!--        <TextView-->
+<!--            android:textSize="30dp"-->
+<!--            android:text="" />-->
+<!--    </TableRow>-->
+
+<!--    <TableRow>-->
+<!--        <TextView-->
+<!--            android:textSize="20dp"-->
+<!--            android:text="계산결과 : " />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/result"-->
+<!--            android:layout_span="4"-->
+<!--            android:textSize="20dp"-->
+<!--            android:text="결과값" />-->
+<!--    </TableRow>-->
+
+<!--</TableLayout>-->
+
+
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <TableRow>
+        <EditText
+            android:id="@+id/et1"
+            android:layout_weight="1"
+            android:layout_span="5"
+            android:hint="숫자1"/>
+    </TableRow>
+    <TableRow>
+        <EditText
+            android:id="@+id/et2"
+            android:layout_weight="1"
+            android:layout_span="5"
+            android:hint="숫자2" />
+    </TableRow>
+    <TableRow>
+        <Button
+            android:id="@+id/zero"
+            android:layout_weight="1"
+            android:text="0" />
+        <Button
+            android:id="@+id/one"
+            android:layout_weight="1"
+            android:text="1" />
+        <Button
+            android:id="@+id/two"
+            android:layout_weight="1"
+            android:text="2" />
+        <Button
+            android:id="@+id/three"
+            android:layout_weight="1"
+            android:text="3" />
+        <Button
+            android:id="@+id/four"
+            android:layout_weight="1"
+            android:text="4" />
+    </TableRow>
+    <TableRow>
+        <Button
+            android:id="@+id/five"
+            android:layout_weight="1"
+            android:text="5" />
+        <Button
+            android:id="@+id/six"
+            android:layout_weight="1"
+            android:text="6" />
+        <Button
+            android:id="@+id/seven"
+            android:layout_weight="1"
+            android:text="7" />
+        <Button
+            android:id="@+id/eight"
+            android:layout_weight="1"
+            android:text="8" />
+        <Button
+            android:id="@+id/nine"
+            android:layout_weight="1"
+            android:text="9" />
+    </TableRow>
+    <TableRow>
+        <Button
+            android:id="@+id/plus"
+            android:layout_weight="1"
+            android:layout_span="5"
+            android:text="+" />
+    </TableRow>
+    <TableRow>
+        <Button
+            android:id="@+id/minus"
+            android:layout_weight="1"
+            android:layout_span="5"
+            android:text="-" />
+    </TableRow>
+    <TableRow>
+        <Button
+            android:id="@+id/mul"
+            android:layout_weight="1"
+            android:layout_span="5"
+            android:text="*" />
+    </TableRow>
+    <TableRow>
+        <Button
+            android:id="@+id/div"
+            android:layout_weight="1"
+            android:layout_span="5"
+            android:text="/" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:textSize="20dp"
+            android:text="결과 : " />
+        <TextView
+            android:id="@+id/result"
+            android:layout_span="3"
+            android:textSize="20dp"
+            android:text="결과값" />
+    </TableRow>
+
+</TableLayout>
