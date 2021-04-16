@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">testproject</string>
+    <string name="strText1">그만큼 재미있으시다는거지.</string>
+    <string name="strBtn1">무야호</string>
+</resources>

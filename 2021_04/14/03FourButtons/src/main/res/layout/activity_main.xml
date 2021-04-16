@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/naverBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/naver"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></Button>
+
+    <Button
+        android:id="@+id/callBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/call"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/naverBtn"></Button>
+
+    <Button
+        android:id="@+id/gallaryBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/gal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/callBtn"></Button>
+
+    <Button
+        android:id="@+id/exitBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/exit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gallaryBtn"></Button>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Four Buttons</string>
+    <string name="naver">1. 네이버가기</string>
+    <string name="call">2. 긴급전화걸기</string>
+    <string name="gal">3. 갤러리 오픈</string>
+    <string name="exit">4. 끝내기</string>
+</resources>
