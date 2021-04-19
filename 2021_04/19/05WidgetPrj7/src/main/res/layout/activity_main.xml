@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="버튼 1번" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="버튼 2번" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="버튼 3번" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="버튼 4번" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="버튼 5번" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="버튼 6번" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="버튼 7번" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="버튼 8번" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="버튼 9번" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="버튼 10번" />
+
+    </LinearLayout>
+
+</ScrollView>

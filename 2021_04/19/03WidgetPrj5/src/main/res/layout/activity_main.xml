@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<!--    <AutoCompleteTextView-->
+<!--        android:id="@+id/autoCompliteView1"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:completionHint="키워드를 입력해주세요."-->
+<!--        android:completionThreshold="2" />-->
+
+    <MultiAutoCompleteTextView
+        android:id="@+id/multiAutoCompliteView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="멀티 자동 완성 텍스트 뷰"
+        android:completionHint="여러 단어를 자동완성으로"
+        android:completionThreshold="2" />
+
+</LinearLayout>
